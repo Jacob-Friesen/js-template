@@ -1,4 +1,6 @@
 # js-template
+**A small fork of this js template to not strip line numbers in order to work with angular jsdoc and its line number mapping.**
+
 Rewritten and Improved John Resig's micro javascipt template
 
 js-template is based on John Resig's microTemplate function. However the orinal version has got to be improved.

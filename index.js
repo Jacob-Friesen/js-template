@@ -16,8 +16,7 @@ var setWhiteSpaces = function(str, set) {
   } else {   // restore white spaces and remove empty lines
     return str.replace(/::BR::/g, "\r")
       .replace(/::BN::/g, "\n")
-      .replace(/::BT::/g, "\t")
-      .replace(/^\s*[\r\n]/gm, "").trim();
+      .replace(/::BT::/g, "\t").trim();
   }
 };
 
